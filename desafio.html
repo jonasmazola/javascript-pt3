@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="desafio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de moeda</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="conteudo">
+            <div class="conteudo-header">
+                <h1>CodeClub Convert Money</h1>
+            </div>
+
+            <div class="conteudo-menu">
+                <!-- pais original -->
+                <label for="" class="menu-texto">
+                    Converter <b>De</b>
+                    <select class="selecionarMoeda" id="">
+                        <option>Real Brasileiro</option>
+                    </select>
+                </label>
+                <!-- opcoes de transferir -->
+                <label for="" class="menu-texto">
+                    Convrter <b>Para</b>
+                    <select class="selecionarMoeda" id="selecionarMoeda">
+                        <option>Dolar Americano</option>
+                        <option>Euro</option>
+                        <option>BitCoin</option>
+                    </select>
+                </label>
+                <!-- valor digitado -->
+                <label for="" class="menu-texto">
+                    Valor
+                    <input type="text" class="selecionarMoeda" id="valorDigitado">
+                </label>
+                <!-- botao  -->
+                <button id="botaoConverter">Converter</button>
+                <!-- rodape -->
+                <div class="conteudo-rodape">
+                    <div class="rodape-header">
+                        <img src="./img/brasil.png" alt="">
+                        <p>Real</p>
+                        <p id="valorOriginal">10000 </p>
+                    </div>
+                    <div class="rodape-conteudo">
+                        <img src="./img/seta.png" alt="">
+                    </div>
+                    <div class="rodape-rodape">
+                        <img id="imagemMoeda" src="./img/euro.png" alt="">
+                        <p id="moedaConvertida">dolar americano</p>
+                        <p id="valorConvertido">100.000</p>
+                    </div>
+                </div>
+            </div>
+                
+
+
+        </div>
+    </div>
+</body>
+<script src="desafio.js"></script>
+
+</html>
